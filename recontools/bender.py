@@ -1,9 +1,9 @@
-import base
+from base import ReconPlugin
 
 
-class Bender(base.ReconPlugin):
+class Bender(ReconPlugin):
     def __init__(self):
-        base.ReconPlugin.__init__(self)
+        ReconPlugin.__init__(self)
         self.name = 'bender'
 
     def get_info(self, path):

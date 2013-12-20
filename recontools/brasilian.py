@@ -1,10 +1,10 @@
-import base
+from base import ReconPlugin
 from random import choice
 
 
-class Brasilian(base.ReconPlugin):
+class Brasilian(ReconPlugin):
     def __init__(self):
-        base.ReconPlugin.__init__(self)
+        ReconPlugin.__init__(self)
         self.name = 'brasilian'
         self.brasilians = ['Ardriana Lima',
                            'Ayrton Senna',
